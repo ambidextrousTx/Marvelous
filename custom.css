@@ -1,9 +1,17 @@
 body {
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
-    border-top-color: #2323aa;
-    border-top-width: 5px;
-    border-top-style: double;
-    font-family: sans-serif;
-    color: #2323ff;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	border-top-color: #2323aa;
+	border-top-width: 5px;
+	border-top-style: double;
+	font-family: sans-serif;
+	color: #2323ff;
+}
+
+.the-form {
+	color: #334433;
+	border-bottom-width: 5px;
+	border-bottom-style: double;
+	border-bottom-color: #443344;
+
 }
