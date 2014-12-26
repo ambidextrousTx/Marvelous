@@ -1,0 +1,9 @@
+body {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-top-color: #2323aa;
+    border-top-width: 5px;
+    border-top-style: double;
+    font-family: sans-serif;
+    color: #2323ff;
+}
