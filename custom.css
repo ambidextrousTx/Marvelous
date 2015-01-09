@@ -23,7 +23,7 @@ body {
 
 .headers {
     text-align: center;
-    color: #2323ff;
+    color: #4545bb;
 }
 
 .headers h1 {
@@ -34,3 +34,11 @@ body {
     
 }
 
+#submission {
+    color: #454545;
+    width: 150px;
+    border: none;
+    margin: 5px;
+    padding: 1px;
+    background: #a4a4a4;
+}
