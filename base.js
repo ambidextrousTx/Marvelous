@@ -6,3 +6,5 @@ function httpGet(url) {
     xmlHttp.send(null);
     return xmlHttp.responseText;
 }
+
+
