@@ -1,41 +1,42 @@
 <!doctype html>
 
 <html>
-	<head>
-		<title>
-			A Demonstration of How to Use the Marvel API
-		</title>
-		<link rel="stylesheet" href="styles/custom.css" />
-        <script type="text/javascript" src="lib/base.js"></script>
-	</head>
-	<body>
-        <section class="headers">
-            <hgroup>
-            <h1>Interact with the Marvel Universe</h1>
-            <h3>Have fun!</h3>
-            </hgroup>
-        </section>
+<head>
+    <title>
+        A Demonstration of How to Use the Marvel API
+    </title>
+    <link rel="stylesheet" href="styles/custom.css"/>
+    <script type="text/javascript" src="lib/base.js"></script>
+</head>
+<body>
+<section class="headers">
+    <hgroup>
+        <h1>Interact with the Marvel Universe</h1>
 
-		<section class="the-form">
-		<form action="getResult(character)" method="GET">
-			<label for="character">Enter your favorite character</label>
-			<input id="character" type="text" name="character" />
-			<br />
-			<label for="submission">Send to marvel API</label>
-			<input id="submission" type="submit" />
-		</form>
-		</section>
-        
-        <section class="result">
-            <script>
-//            console.log(httpGet('http://gateway.marvel.com:80/v1/public/characters?name=Spider-Man&apikey=f52173a61b57b0c519097e89a8c0ce41'));
-            </script>
-        </section>
+        <h3>Have fun!</h3>
+    </hgroup>
+</section>
 
-	<footer>
-		(C) Ambidextrous 2015-2016
-	</footer>
-	</body>
-    
-          
+<section class="the-form">
+    <form action="getResult(character)" method="GET">
+        <label for="character">Enter your favorite character</label>
+        <input id="character" type="text" name="character"/>
+        <br/>
+        <label for="submission">Send to marvel API</label>
+        <input id="submission" type="submit"/>
+    </form>
+</section>
+
+<section class="result">
+    <script>
+        //            console.log(httpGet('http://gateway.marvel.com:80/v1/public/characters?name=Spider-Man&apikey=f52173a61b57b0c519097e89a8c0ce41'));
+    </script>
+</section>
+
+<footer>
+    (C) Ambidextrous 2015-2016
+</footer>
+</body>
+
+
 </html>
