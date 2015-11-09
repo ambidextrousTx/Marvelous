@@ -42,3 +42,11 @@ body {
     padding: 1px;
     background: #a4a4a4;
 }
+
+footer {
+    text-align: center;
+    color: #334433;
+    font-variant: small-caps;
+    margin-top: 10px;
+    padding-top: 10px;
+}
